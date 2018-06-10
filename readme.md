@@ -7,7 +7,7 @@
 **使用 React / Redux架構**  
 - 頁面分上方 SearchBar 跟下方 List 兩大 Component，上方 SearchBar 輸入關鍵字會即時篩選結果顯示在下方 List。  
 - 初進站時，ListContainer 會以無關鍵字的方式 dispatch listFilter action，即顯示全部戲劇列表。  
-- 當 SearchBar 輸入值改變時， SearchBarContainer 會連同『搜尋關鍵字』與listFilter action 一起 dispatch 至 reducer。  
+- 當 SearchBar 輸入值改變時， SearchBarContainer 會連同『搜尋關鍵字』與 listFilter action 一起 dispatch 至 reducer。  
 - SearchBar 輸入更新使用自身的 state 處理。  
   
 **其他工具**  
