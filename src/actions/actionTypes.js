@@ -1,0 +1,1 @@
+export const LIST_FILTER = 'LIST_FILTER'

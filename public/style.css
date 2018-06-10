@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.search-bar {
+  width: 100vw;
+  height: 120px;
+  background: #e6ebc1;
+  line-height: 120px;
+  box-shadow: 0 1px 1px #DDD;
+}
+
+.Search-bar__input {
+  line-height: 36px;
+  border: none;
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 120px 0 48px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
+}
+
+.item {
+  width: 200px;
+  display: inline-block;
+  background: white;
+  margin: 0 72px 36px 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  box-shadow: 0 1px 1px #CCC;
+}
+
+.item *+* {
+  margin-bottom: 5px;
+}
+
+.item__img {
+  width: 200px;
+  height: 280px;
+}
+
+.item__img > img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.item__name {
+  font-size: 14px;
+  margin: 16px;
+}
+
+.item__year, .item__total_eps, .item__total_views {
+  font-size: 9px;
+  color: #AAA;
+  font-weight: 300;
+  margin-left: 16px;
+}
+
+
