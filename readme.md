@@ -13,7 +13,7 @@
 **執行 webpack dev server**  
 `$ npm run dev`  
 
-並可於 [http://localhost:8080](http://localhost:8080/) 顯示網頁。
+可於 [http://localhost:8080](http://localhost:8080/) 顯示網頁。
 
 
 **使用 React / Redux架構**  
