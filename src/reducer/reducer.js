@@ -17,22 +17,14 @@ const searchApp = ( state = initialState , action ) => {
       })
 
     case `${LIST_FILTER}_FULFILLED`: {
-      // 如果 search input 空字串，則顯示完整列表
-      if(action.meta.value === '') {
-        return ({
-          ...state,
-          isLoading: false,
-          dramas: action.payload.data.data
-        })
-      } else {
-        return ({
-          ...state,
-          isLoading: false,
-          dramas: action.payload.data.data.filter( item => (
-            item.name.includes( action.meta.value )
-          ))
-        })
-      }
+      // 若 search input 空字串，顯示完整列表；有輸入值則顯示篩選後結果
+      return ({
+        ...state,
+        isLoading: false,
+        dramas: action.payload.data.data.filter( item => (
+          item.name.includes( action.meta.value )
+        ))
+      })
     }
 
 

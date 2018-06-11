@@ -39,7 +39,7 @@ class List extends React.Component {
 const Item = ({item}) => (
   <div className="item">
     <div className="item__img">
-      <img src={item.vertical_poster} style={{height: '100%'}} />
+      <img src={item.vertical_poster} />
     </div>
     <div className="item__name">{item.name}</div>
     <div className="item__year">出品年份：{item.year}</div>

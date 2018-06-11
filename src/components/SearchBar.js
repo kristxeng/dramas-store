@@ -23,7 +23,7 @@ class SearchBar extends React.Component {
     return (
       <div className="search-bar">
         <div className="container">
-          <input type="text" className="Search-bar__input" placeholder="請輸入欲搜尋劇名"
+          <input type="text" className="search-bar__input" placeholder="請輸入欲搜尋劇名"
                 value={this.state.inputValue} onChange={this.handleChange} />
         </div>
       </div>
