@@ -6,14 +6,13 @@
 - 後端API GitHub： [https://github.com/kristxeng/dramas-api/](https://github.com/kristxeng/dramas-api/)  
 
 **Install**  
-
 `npm install`  
 或  
 `yarn install`    
 
-執行 webpack dev server  
+**執行 webpack dev server**  
 `npm run dev`  
-並可於 [http://localhost:8080](http://localhost:8080/) 執行網頁。
+並可於 [http://localhost:8080](http://localhost:8080/) 顯示網頁。
 
 
 **使用 React / Redux架構**  
