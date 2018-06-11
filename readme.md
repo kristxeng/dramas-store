@@ -6,12 +6,13 @@
 - 後端API GitHub： [https://github.com/kristxeng/dramas-api/](https://github.com/kristxeng/dramas-api/)  
 
 **Install**  
-`npm install`  
+`$ npm install`  
 或  
-`yarn install`    
+`$ yarn install`    
 
 **執行 webpack dev server**  
-`npm run dev`  
+`$ npm run dev`  
+
 並可於 [http://localhost:8080](http://localhost:8080/) 顯示網頁。
 
 
