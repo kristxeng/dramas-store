@@ -1,13 +1,19 @@
 ## 使用 react /redux 的戲劇列表查詢系統
+
 進站會先顯示所有的戲劇列表，並於使用者在上方搜尋列中輸入搜尋關鍵字時，將搜尋結果顯示於下方列表頁面中。  
 - 前端網頁運行網址： [http://thinkr.tw/dramas/](http://thinkr.tw/dramas/)  
 - 後端API： [http://thinkr.tw:3002/api/dramas/](http://thinkr.tw:3002/api/dramas/)  
 - 後端API GitHub： [https://github.com/kristxeng/dramas-api/](https://github.com/kristxeng/dramas-api/)  
 
 **Install**  
-`npm install` 或 `yarn install`  
 
-`npm run dev` 執行 webpack dev server，並可於 [http://localhost:8080](http://localhost:8080/) 執行網頁。
+`npm install`  
+或  
+`yarn install`    
+
+執行 webpack dev server  
+`npm run dev`  
+並可於 [http://localhost:8080](http://localhost:8080/) 執行網頁。
 
 
 **使用 React / Redux架構**  
