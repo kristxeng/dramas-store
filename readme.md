@@ -4,6 +4,12 @@
 - 後端API： [http://thinkr.tw:3002/api/dramas/](http://thinkr.tw:3002/api/dramas/)  
 - 後端API GitHub： [https://github.com/kristxeng/dramas-api/](https://github.com/kristxeng/dramas-api/)  
 
+**Install**  
+`npm install` 或 `yarn install`  
+
+`npm run dev` 執行 webpack dev server，並可於 [http://localhost:8080](http://localhost:8080/) 執行網頁。
+
+
 **使用 React / Redux架構**  
 - 頁面分上方 SearchBar 跟下方 List 兩大 Component，上方 SearchBar 輸入關鍵字會即時篩選結果顯示在下方 List。  
 - 初進站時，ListContainer 會以無關鍵字的方式 dispatch listFilter action，即顯示全部戲劇列表。  
